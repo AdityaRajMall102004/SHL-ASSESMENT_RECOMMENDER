@@ -57,10 +57,18 @@ print(f"[Agent] Loaded {len(CATALOG)} assessments")
 
 from prompts import build_system_prompt_base, format_catalog_for_prompt
 
-print("[Agent] Loading FAISS retriever...")
-RETRIEVER = _load_retriever()
 print("[Agent] Ready.\n")
 
+RETRIEVER = None
+
+def get_agent_retriever():
+    global RETRIEVER
+
+    if RETRIEVER is None:
+        print("[Agent] Lazy loading FAISS retriever...")
+        RETRIEVER = _load_retriever()
+
+    return RETRIEVER
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 
 def count_assistant_turns(messages: list) -> int:
@@ -122,8 +130,10 @@ def retrieve_relevant(messages: list) -> list:
         m["content"] for m in messages[-4:]
         if m.get("role") == "user" and m.get("content")
     )
-    return RETRIEVER.search(query, top_k=TOP_K_RETRIEVE)
 
+    retriever = get_agent_retriever()
+
+    return retriever.search(query, top_k=TOP_K_RETRIEVE)
 
 def build_context_prompt(messages: list) -> str:
     """

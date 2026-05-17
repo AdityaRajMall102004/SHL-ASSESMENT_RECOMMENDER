@@ -1,20 +1,17 @@
-# requirements.txt — Install everything at once with:
-# pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
 
-# Step 2 — catalog loader
 requests>=2.31.0
 
-# Step 3 — vector index
 sentence-transformers>=2.6.0
 faiss-cpu>=1.7.4
 numpy>=1.26.0
 
-# Step 4 & 5 — agent (HuggingFace Inference API + Groq)
+torch==2.2.2+cpu
+
 huggingface_hub>=0.20.0
 python-dotenv>=1.0.0
 groq>=0.4.0
 
-# Step 6 — API
 fastapi>=0.110.0
 uvicorn>=0.29.0
 pydantic>=2.6.0
