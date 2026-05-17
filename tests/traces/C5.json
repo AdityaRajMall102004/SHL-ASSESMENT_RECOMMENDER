@@ -1,0 +1,38 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "content": "As part of our restructuring and annual talent audit, we need to re-skill our Sales organization. What solutions do you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "For a compact audit-and-development stack: **self-reported skills** (GSA plus its development report for re-skilling initiative), **personality** via OPQ32r, a **sales-specific OPQ view** with optional motivators, and **Sales Transformation** for how reps show up in a digital-first selling model. First-line sales managers can follow the same spine and use the Sales Manager Sales Transformation report from the catalog when you split leader vs. rep reporting."
+    },
+    {
+      "role": "user",
+      "content": "What’s the difference between OPQ and OPQ MQ Sales Report?"
+    },
+    {
+      "role": "assistant",
+      "content": "**OPQ (OPQ32r)** is the underlying **personality questionnaire**: a broad, standard measure of workplace behavioural style used across roles and decisions (development, team fit, etc.).\n**OPQ MQ Sales Report** is a **reporting product**, not a different questionnaire. It summarizes OPQ results in a **sales-specific** way—graphical and narrative emphasis on behaviours tied to sales success. You can **optionally** add the **Motivation Questionnaire (MQ)** so the same report also reflects **sales motivators and drives**; without MQ, you still get the sales-framed OPQ story.\nSo: one assessment instrument (OPQ32r) for personality; the Sales Report is how you **read** those results for sellers (and optionally enrich with MQ)."
+    },
+    {
+      "role": "user",
+      "content": "Clear. We’ll use OPQ for everyone and add MQ only where we want motivators in the Sales Report; keeping the five solutions as our audit stack."
+    },
+    {
+      "role": "assistant",
+      "content": "That matches how the catalog is built: OPQ32r once, OPQ MQ Sales Report for sales-language feedback and optional MQ, plus GSA and its development report for skills and associated re-skilling, and Sales Transformation 2.0 for rep-level digital selling behaviours."
+    }
+  ],
+  "expected_shortlist": [
+    "Global Skills Assessment",
+    "Global Skills Development Report",
+    "Occupational Personality Questionnaire OPQ32r",
+    "OPQ MQ Sales Report",
+    "Sales Transformation 2.0 - Individual Contributor"
+  ],
+  "facts": {
+    "role": "to re-skill our sales organization"
+  }
+}

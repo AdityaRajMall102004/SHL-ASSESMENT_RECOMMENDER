@@ -1,0 +1,45 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "content": "We need a solution for senior leadership."
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to help narrow that down. Who is this meant for?"
+    },
+    {
+      "role": "user",
+      "content": "The pool consists of CXOs, director-level postions; people with more than 15 years of experience."
+    },
+    {
+      "role": "assistant",
+      "content": "For such roles, the OPQ32r is the right instrument — it measures 32 workplace behaviour dimensions including strategic thinking, influencing style, and leadership. One question before I commit to a report format:is this for a newly created position, or developmental feedback for an executive already in role?"
+    },
+    {
+      "role": "user",
+      "content": "Selection — comparing candidates against a leadership benchmark."
+    },
+    {
+      "role": "assistant",
+      "content": "For selection with a leadership benchmark, the instrument plus two relevant report formats:"
+    },
+    {
+      "role": "user",
+      "content": "Perfect, that's what we need."
+    },
+    {
+      "role": "assistant",
+      "content": "The OPQ32r is what your candidates complete — the UCF and Leadership Reports are the outputs you receive, both runnable from a single administration."
+    }
+  ],
+  "expected_shortlist": [
+    "Occupational Personality Questionnaire OPQ32r",
+    "OPQ Universal Competency Report 2.0",
+    "OPQ Leadership Report"
+  ],
+  "facts": {
+    "role": "solution",
+    "seniority": "senior"
+  }
+}

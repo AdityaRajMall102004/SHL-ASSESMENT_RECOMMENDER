@@ -1,0 +1,40 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Hiring graduate financial analysts — final-year students, no work experience. We need numerical reasoning and a finance knowledge test."
+    },
+    {
+      "role": "assistant",
+      "content": "For graduate-level financial analysts:"
+    },
+    {
+      "role": "user",
+      "content": "Good. Can you also add a situational judgement element — work-context decision making for graduates?"
+    },
+    {
+      "role": "assistant",
+      "content": "Added Graduate Scenarios — SHL's situational judgement test designed specifically for graduate-level candidates. The previous three items are unchanged:"
+    },
+    {
+      "role": "user",
+      "content": "That covers it. Numerical + Graduate Scenarios as first filter, domain tests for shortlisted candidates."
+    },
+    {
+      "role": "assistant",
+      "content": "Good two-stage design. That keeps the initial screen fast while reserving knowledge tests for candidates who've cleared the cognitive bar."
+    }
+  ],
+  "expected_shortlist": [
+    "SHL Verify Interactive – Numerical Reasoning",
+    "Financial Accounting (New)",
+    "Basic Statistics (New)",
+    "Graduate Scenarios",
+    "Occupational Personality Questionnaire OPQ32r"
+  ],
+  "facts": {
+    "role": "graduate financial analysts",
+    "seniority": "entry-level",
+    "skills": "financial"
+  }
+}
