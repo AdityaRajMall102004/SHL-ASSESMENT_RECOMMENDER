@@ -3,6 +3,3 @@ __pycache__/
 *.pyc
 venv/
 scraper/venv/
-data/faiss_index.bin
-data/catalog_indexed.json
-tests/eval_results.json
