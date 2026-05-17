@@ -4,6 +4,5 @@ __pycache__/
 venv/
 scraper/venv/
 data/faiss_index.bin
-data/retriever.pkl
 data/catalog_indexed.json
 tests/eval_results.json
